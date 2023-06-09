@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top-menu{
+    display: table;
+    clear: both;
+    margin: auto;
+    width: 100%;
+}
+.menu{
+    text-transform: uppercase;
+    height: 90px;
+    width: 1200px;
+    margin: auto;
+}
+.menu ol{
+   width: 100%;
+   height: 90px;
+   margin: 0;
+   padding: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    text-decoration: none;
+}
+.site{
+    float: left;
+    height: 38px;
+    padding: 26px 0;
+    color: red;
+    font-size: 30px;
+}
+.key{
+    float: right;
+    height: 24px;
+    padding: 33px 0;
+    margin-right: 15px;
+}
+.key a{
+    color: black;
+}
+.contact{
+    float: right;
+    height: 45px;
+    padding: 22px 0;
+}
+button{
+    padding: 14px 34px ;
+    color: white;
+    background-color: red;
+    border: none;
+    text-transform: uppercase;
+}
+.buttom-menu{
+    background-color: black;
+    color: white;
+    display: table;
+    clear: both;
+    width: 100%;
+    margin: auto;
+    font-size: 20px;
+}
+.menu .cnopka a{
+    color: white;
+}
+.ol-menu li{
+    padding: 33px 14px;
+    margin: 0;
+}
+.ol-menu .me{
+    float: right;
+    padding: 25px 0px;
+}
+.me p{
+    margin: 0;
+}
+.me input{
+    padding: 10px;
+}
+.ol-menu .cnopka:hover{
+    background: red;
+}
+.conteiner{
+    display: table;
+    clear: both;
+    width: 1100px;
+    margin: auto;
+}
+.box1{
+    margin: auto;
+    width: 100%;
+}
+.box2{
+    margin: auto;
+    width: 100%;
+}
+.infor{
+    height: 366px;
+    margin: auto;
+    padding: 15px 0;
+}
+.infor ul{
+    padding: 0 20px;
+}
+.infor h2{
+    padding: 10px 0;
+}
+.foto{
+    height: 380px;
+    margin: auto;
+}
+.square{
+    width: 156px;
+    height: 330;
+    float: left;
+    margin-right: 20px;
+}
+.foto-1{ 
+    height: 100%;
+    width: 100%;
+}
+.text{
+    width: 95%;
+    margin: 10px;
+}
+.foto h3{
+    color: red;
+}
+@media (min-width: 1200px){
+    .menu{
+        width: 1100px;
+        height: 90px;
+        margin: auto;
+    }
+    .conteiner{
+        width: 1100px;
+    }
+}
+@media (max-width: 1199px){
+    .menu{
+        width: 950px;
+        height: 90px;
+        margin:auto ;
+    }
+    .conteiner{
+        width: 950px;
+    }
+}
+@media(max-width:  992px){
+    .menu{
+        width: 740px;
+        height: 90px;
+        margin: auto;
+    }
+    .conteiner{
+        width: 740px;
+    }
+}
